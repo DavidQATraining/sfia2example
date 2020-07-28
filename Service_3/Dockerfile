@@ -2,9 +2,9 @@ FROM python:alpine3.12
 
 LABEL version="1.0"
 
-LABEL description="My service 1."
+LABEL description="My service 3."
 
-RUN mkdir -p /opt/sfia2/ 
+RUN mkdir -p /opt/sfia2/
 
 COPY . /opt/sfia2/
 
